@@ -1,6 +1,6 @@
 # Electricity Transformer Dataset (ETDataset)
 
-In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as .csv files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon).
+In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as .csv files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon.
 
 *Dataset list*
 
@@ -35,7 +35,7 @@ As a result, to address this problem, our team and Beijing Guowang Fuda Science 
 
 ## ETT-small:
 
-We donated two years of data, in which each data point recorded every 15 minutes, from two regions of a province of China, named ETT-small-1 and ETT-small-2, respectively. Each dataset contains 2 year * 365 days * 24 hours * 4 times = 70,080 data point. Each data point consists of 7 features, including the predictive value "oil temperature", and 6 different types of external power load features.
+We donated two years of data, in which each data point is recorded every minute (marked by *m*), and they were from two regions of a province of China, named ETT-small-1 and ETT-small-2, respectively. Each dataset contains 2 year * 365 days * 24 hours * 60 times = 1,051,200 data point. Besides, we also provide the hourly-level variants for fast development (marked by *h*). Each data point consists of 7 features, including the predictive value "oil temperature", and 6 different types of external power load features.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
