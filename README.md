@@ -6,7 +6,7 @@ In this Github repo, we provide several datasets could be used for the long sequ
 
 - [x] **ETT-small**: The data of 2 Electricity Transformers at 2 stations, including load, oil temperature.
 - [ ] **ETT-large**: The data of 39 Electricity Transformers at 39 stations, including load, oil temperature.
-- [ ] **ETT-Full**: The data of 69 Transformer station at 39 stations, including load, oil temperature, location, climate, demand.
+- [ ] **ETT-full**: The data of 69 Transformer station at 39 stations, including load, oil temperature, location, climate, demand.
 
 If you use this dataset please cite:
 
