@@ -40,6 +40,7 @@ We donated two years of data, in which each data point recorded every 15 minutes
 <p align="center">
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png" height = "200" alt="" align=center />
+<br><br>
 <b>Figure 1. The overall view of the "oil temperature" variable in the dataset.</b><b>Figure 2. The autocorrelation graph of the dataset.</b>
 </p>
 
