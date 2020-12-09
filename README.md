@@ -11,7 +11,7 @@ In this Github repo, we provide several datasets could be used for the long sequ
 If you use this dataset please cite:
 
 ```
-@inproceedings{haoyi-etal-2021,
+@inproceedings{haoyietal-informer-2021,
   author    = {Haoyi Zhou and
                Shanghang Zhang and
                Jieqi Peng and
