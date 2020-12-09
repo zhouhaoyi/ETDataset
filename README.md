@@ -37,12 +37,10 @@ As a result, to address this problem, our team and Beijing Guowang Fuda Science 
 
 We donated two years of data, in which each data point recorded every 15 minutes, from two regions of a province of China, named ETT-small$_1$ and ETT-small$_2$, respectively. Each dataset contains 2 year * 365 days * 24 hours * 4 times = 70,080 data point. Each data point consists of 7 features, including the predictive value "oil temperature", and 6 different types of external power load features.
 
-![img](https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png){:height="50%" width="50%"}
-
+<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
 <center>*Figure 1. The overall view of the "oil temperature" variable in the dataset.*</center>
 
-![img](https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png){:height="50%" width="50%"}
-
+<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png" height = "200" alt="" align=center />
 <center>*Figure 2. The autocorrelation graph of the dataset.*</center>
 
 Specifically, the dataset combines short-term periodical patterns, long-term periodical patterns, long-term trends, and many irregular patterns. We firstly give an overall view in Figure 1 and it shows evident seasonal trends. To better examine the existence of long-term and short-term repetitive patterns, we plot the autorcorrelation graph for all the variables of the ETT-small$_1$ dataset in Figure 2. The blue line in the above is the target 'oil temperature', and it maintains some short-term local continuity. However, the other variables (power load) shows short-term daily pattern (in every 24 hours) and long-term week pattern(in every 7 days).
