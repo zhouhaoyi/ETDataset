@@ -38,8 +38,8 @@ As a result, to address this problem, our team and Beijing Guowang Fuda Science 
 We donated two years of data, in which each data point is recorded every minute (marked by *m*), and they were from two regions of a province of China, named ETT-small-1 and ETT-small-2, respectively. Each dataset contains 2 year * 365 days * 24 hours * 60 times = 1,051,200 data point. Besides, we also provide the hourly-level variants for fast development (marked by *h*). Each data point consists of 7 features, including the predictive value "oil temperature", and 6 different types of external power load features.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png" height = "200" alt="" align=center />
+<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
 <br><br>
 <b>Figure 1.</b>The overall view of the variables in the dataset.<b>Figure 2.</b>The autocorrelation graph of the dataset.
 </p>
