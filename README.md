@@ -1,8 +1,8 @@
 # Electricity Transformer Dataset (ETDataset)
 
-In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as .csv files.  The dataset ranges from 2016/07 to 2018/07 (The cut-off date will update to 2019 soon).
+In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as .csv files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon).
 
-==Dataset list==
+*Dataset list*
 
 - [x] **ETT-small**: The data of 2 Electricity Transformers at 2 stations, including load, oil temperature.
 - [ ] **ETT-large**: The data of 39 Electricity Transformers at 39 stations, including load, oil temperature.
@@ -37,12 +37,12 @@ As a result, to address this problem, our team and Beijing Guowang Fuda Science 
 
 We donated two years of data, in which each data point recorded every 15 minutes, from two regions of a province of China, named ETT-small$_1$ and ETT-small$_2$, respectively. Each dataset contains 2 year * 365 days * 24 hours * 4 times = 70,080 data point. Each data point consists of 7 features, including the predictive value "oil temperature", and 6 different types of external power load features.
 
-![img](https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png)
+![img](https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png){:height="50%" width="50%"}
 
-*Figure 1. The overall view of the "oil temperature" variable in the dataset.*
+<center>*Figure 1. The overall view of the "oil temperature" variable in the dataset.*</center>
 
-![img](https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png)
+![img](https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png){:height="50%" width="50%"}
 
-*Figure 2. The autocorrelation graph of the dataset.*
+<center>*Figure 2. The autocorrelation graph of the dataset.*</center>
 
 Specifically, the dataset combines short-term periodical patterns, long-term periodical patterns, long-term trends, and many irregular patterns. We firstly give an overall view in Figure 1 and it shows evident seasonal trends. To better examine the existence of long-term and short-term repetitive patterns, we plot the autorcorrelation graph for all the variables of the ETT-small$_1$ dataset in Figure 2. The blue line in the above is the target 'oil temperature', and it maintains some short-term local continuity. However, the other variables (power load) shows short-term daily pattern (in every 24 hours) and long-term week pattern(in every 7 days).
