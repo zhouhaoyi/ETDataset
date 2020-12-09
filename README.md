@@ -20,8 +20,7 @@ If you use this dataset please cite:
                Hui Xiong and
                Wancai Zhang},
   title     = {Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting},
-  booktitle = {The Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}
-               2021},
+  booktitle = {The Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI} 2021},
   pages     = {online},
   publisher = {{AAAI} Press},
   year      = {2021},
