@@ -39,12 +39,8 @@ We donated two years of data, in which each data point recorded every 15 minutes
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
-*Figure 1. The overall view of the "oil temperature" variable in the dataset.*
-</p>
-
-<p align="center">
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png" height = "200" alt="" align=center />
-*Figure 2. The autocorrelation graph of the dataset.*
+Figure 1. The overall view of the "oil temperature" variable in the dataset.  Figure 2. The autocorrelation graph of the dataset.
 </p>
 
 Specifically, the dataset combines short-term periodical patterns, long-term periodical patterns, long-term trends, and many irregular patterns. We firstly give an overall view in Figure 1 and it shows evident seasonal trends. To better examine the existence of long-term and short-term repetitive patterns, we plot the autorcorrelation graph for all the variables of the ETT-small$_1$ dataset in Figure 2. The blue line in the above is the target 'oil temperature', and it maintains some short-term local continuity. However, the other variables (power load) shows short-term daily pattern (in every 24 hours) and long-term week pattern(in every 7 days).
