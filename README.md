@@ -48,12 +48,12 @@ Specifically, the dataset combines short-term periodical patterns, long-term per
 We use the `.csv` file format to save the data, a demo of the ETT data is illustrated as the following figure. The first line (8 columns) is the horizontal header and includes "date", "HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL" and "OT".
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/ETT%20data%20demo.png" height = "200" alt="" align=center />
+<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/ETT%20data%20demo.png" height = "168" alt="" align=center />
 <br><br>
 <b>Figure 3.</b> A demo of the ETT data.
 </p>
 
-The meaning of each column name is shown in the table 1.
+The meaning of each column name is shown in the Table 1.
 | Field | Description |
 | :----: | :----: |
 | date | date of each point |
@@ -65,4 +65,4 @@ The meaning of each column name is shown in the table 1.
 | LULL | **L**ow **U**se**L**ess **L**oad |
 | OT | **O**il **T**emperature, *the target value* |
 
-<b>Table 1.</b> Column Name Description.
+<b>Table 1.</b> Description for each columm.
