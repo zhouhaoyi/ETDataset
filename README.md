@@ -64,3 +64,4 @@ The meaning of each column name is shown in the table 1.
 | LUFL | **L**ow **U**se**F**ul **L**oad |
 | LULL | **L**ow **U**se**L**ess **L**oad |
 | OT | **O**il **T**emperature, the target value |
+<b>Table 1.</b> Column Name Description.
