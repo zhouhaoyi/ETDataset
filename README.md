@@ -1,8 +1,3 @@
-<style>
-table {
-margin: auto;
-}
-</style>
 # Electricity Transformer Dataset (ETDataset)
 
 In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as `.csv` files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon.
@@ -68,6 +63,6 @@ The meaning of each column name is shown in the table 1.
 | MULL | **M**iddle **U**se**L**ess **L**oad |
 | LUFL | **L**ow **U**se**F**ul **L**oad |
 | LULL | **L**ow **U**se**L**ess **L**oad |
-| OT | **O**il **T**emperature, the target value |
+| OT | **O**il **T**emperature, *the target value* |
 
 <b>Table 1.</b> Column Name Description.
