@@ -34,21 +34,21 @@ As a result, to address this problem, our team and Beijing Guowang Fuda Science 
 
 ## ETT-small:
 
-We donated two years of data, in which each data point is recorded every minute (marked by *m*), and they were from two regions of a province of China, named ETT-small-1 and ETT-small-2, respectively. Each dataset contains 2 year * 365 days * 24 hours * 60 mins = 1,051,200 data point. Besides, we also provide the hourly-level variants for fast development (marked by *h*). Each data point consists of 8 features, including the date of the point, the predictive value "oil temperature", and 6 different types of external power load features. 
+We donated two years of data, in which each data point is recorded every minute (marked by *m*), and they were from two regions of a province of China, named ETT-small-m1 and ETT-small-m2, respectively. Each dataset contains 2 year * 365 days * 24 hours * 60 mins = 1,051,200 data point. Besides, we also provide the hourly-level variants for fast development (marked by *h*), i.e. ETT-small-h1 and ETT-small-h2. Each data point consists of 8 features, including the date of the point, the predictive value "oil temperature", and 6 different types of external power load features. 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_dataset_year.png" height = "200" alt="" align=center />
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/appendix_auto_correlation.png" height = "200" alt="" align=center />
 <br><br>
-<b>Figure 1.</b>The overall view of the variables in the dataset.<b>Figure 2.</b>The autocorrelation graph of the dataset.
+<b>Figure 1.</b>The overall view of the variables in the ETT-small-h1.&nbsp;&nbsp;<b>Figure 2.</b>The autocorrelation graph of the ETT-small-h1.
 </p>
 
 Specifically, the dataset combines short-term periodical patterns, long-term periodical patterns, long-term trends, and many irregular patterns. We firstly give an overall view in Figure 1, and it shows evident seasonal trends. To better examine the existence of long-term and short-term repetitive patterns, we plot the autorcorrelation graph for all the variables of the ETT-small-1 dataset in Figure 2. The blue line in the above is the target 'oil temperature', and it maintains some short-term local continuity. However, the other variables (power load) shows short-term daily pattern (every 24 hours) and long-term week pattern (every 7 days).
 
-We use the `.csv` file format to save the data, a demo of the ETT data is illustrated as the following figure. The first line (7 columns) is the horizontal header and includes "date", "HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL" and "OT".
+We use the `.csv` file format to save the data, a demo of the ETT data is illustrated as the following figure. The first line (8 columns) is the horizontal header and includes "date", "HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL" and "OT".
 
 <p align="center">
-<img src="https://github.com/zhouhaoyi/ETDataset/blob/main/img/ETT%20data%20demo.png" height = "200" alt="" align=center />
+<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/ETT%20data%20demo.png" height = "200" alt="" align=center />
 <br><br>
 <b>Figure 3.</b> A demo of the ETT data.
 </p>
