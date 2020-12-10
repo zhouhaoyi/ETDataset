@@ -50,7 +50,7 @@ We use the `.csv` file format to save the data, a demo of the ETT data is shown 
 <p align="center">
 <img src="https://github.com/zhouhaoyi/ETDataset/blob/main/img/ETT%20data%20demo.png" height = "200" alt="" align=center />
 <br><br>
-<b>Figure 1.</b>A demo of the ETT data.
+<b>Figure 3.</b> A demo of the ETT data.
 </p>
 
 The meaning of each column name is shown in the table 1.
