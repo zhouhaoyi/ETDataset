@@ -45,7 +45,7 @@ We donated two years of data, in which each data point is recorded every minute 
 
 Specifically, the dataset combines short-term periodical patterns, long-term periodical patterns, long-term trends, and many irregular patterns. We firstly give an overall view in Figure 1, and it shows evident seasonal trends. To better examine the existence of long-term and short-term repetitive patterns, we plot the autorcorrelation graph for all the variables of the ETT-small-1 dataset in Figure 2. The blue line in the above is the target 'oil temperature', and it maintains some short-term local continuity. However, the other variables (power load) shows short-term daily pattern (every 24 hours) and long-term week pattern (every 7 days).
 
-We use the `.csv` file format to save the data, a demo of the ETT data is illustrated as the following figure. The first line (8 columns) is the horizontal header and includes "date", "HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL" and "OT".
+We use the `.csv` file format to save the data, a demo of the ETT data is illustrated as the following figure. The first line (8 columns) is the horizontal header and includes "date", "HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL" and "OT". The detailed meaning of each column name is shown in the Table 1.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/ETT%20data%20demo.png" height = "168" alt="" align=center />
@@ -53,7 +53,6 @@ We use the `.csv` file format to save the data, a demo of the ETT data is illust
 <b>Figure 3.</b> A demo of the ETT data.
 </p>
 
-The meaning of each column name is shown in the Table 1.
 | Field | date | HUFL | HULL | MUFL | MULL | LUFL | LULL | OT |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | **Description** | date of each point |**H**igh **U**se**F**ul **L**oad | **H**igh **U**se**L**ess **L**oad | **M**iddle **U**se**F**ul **L**oad | **M**iddle **U**se**L**ess **L**oad | **L**ow **U**se**F**ul **L**oad | **L**ow **U**se**L**ess **L**oad | **O**il **T**emperature, the target value |
