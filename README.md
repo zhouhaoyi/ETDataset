@@ -54,15 +54,8 @@ We use the `.csv` file format to save the data, a demo of the ETT data is illust
 </p>
 
 The meaning of each column name is shown in the Table 1.
-| Field | Description |
-| :----: | :----: |
-| date | date of each point |
-| HUFL | **H**igh **U**se**F**ul **L**oad |
-| HULL | **H**igh **U**se**L**ess **L**oad |
-| MUFL | **M**iddle **U**se**F**ul **L**oad |
-| MULL | **M**iddle **U**se**L**ess **L**oad |
-| LUFL | **L**ow **U**se**F**ul **L**oad |
-| LULL | **L**ow **U**se**L**ess **L**oad |
-| OT | **O**il **T**emperature, *the target value* |
+| Field | date | HUFL | HULL | MUFL | MULL | LUFL | LULL | OT |
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| **Description** | date of each point |**H**igh **U**se**F**ul **L**oad | **H**igh **U**se**L**ess **L**oad | **M**iddle **U**se**F**ul **L**oad | **M**iddle **U**se**L**ess **L**oad | **L**ow **U**se**F**ul **L**oad | **L**ow **U**se**L**ess **L**oad | **O**il **T**emperature, the target value |
 
-<b>Table 1.</b> Description for each columm.
+<p align="center"><b>Table 1.</b> Description for each columm.</p>
