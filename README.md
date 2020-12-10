@@ -48,7 +48,7 @@ Specifically, the dataset combines short-term periodical patterns, long-term per
 We use the `.csv` file format to save the data, a demo of the ETT-small data is illustrated in Figure 3. The first line (8 columns) is the horizontal header and includes "date", "HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL" and "OT". The detailed meaning of each column name is shown in the Table 1.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/img/ETT%20data%20demo.png" height = "168" alt="" align=center />
+<img src="./img/ETT%20data%20demo.png" height = "168" alt="" align=center />
 <br><br>
 <b>Figure 3.</b> A demo of the ETT data.
 </p>
