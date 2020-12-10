@@ -55,6 +55,6 @@ We use the `.csv` file format to save the data, a demo of the ETT-small data is 
 
 | Field | date | HUFL | HULL | MUFL | MULL | LUFL | LULL | OT |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| Description | The recorded **date** |**H**igh **U**se**F**ul **L**oad | **H**igh **U**se**L**ess **L**oad | **M**iddle **U**se**F**ul **L**oad | **M**iddle **U**se**L**ess **L**oad | **L**ow **U**se**F**ul **L**oad | **L**ow **U**se**L**ess **L**oad | **O**il **T**emperature, the target value |
+| Description | The recorded **date** |**H**igh **U**se**F**ul **L**oad | **H**igh **U**se**L**ess **L**oad | **M**iddle **U**se**F**ul **L**oad | **M**iddle **U**se**L**ess **L**oad | **L**ow **U**se**F**ul **L**oad | **L**ow **U**se**L**ess **L**oad | **O**il **T**emperature (target) |
 
 <p align="center"><b>Table 1.</b> Description for each columm.</p>
