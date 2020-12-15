@@ -1,6 +1,6 @@
-# Electricity Transformer Dataset (ETDataset)
+# Electricity Transformer Dataset (ETDataset) 
 
-In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as `.csv` files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon.
+In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as `.csv` files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon. [中文版本|Chinese version](https://github.com/zhouhaoyi/ETDataset/blob/main/README_CN.md)
 
 *Dataset list*
 
@@ -29,7 +29,7 @@ If you use this dataset please cite the work `Informer@AAAI2021`[[paper]](https:
 
 ## Why *Oil Temperature* is involved in this dataset?
 
-The electric power distribution problem is the distribution of electricity to different areas depends on its sequential usage. But predicting the following demand of a specific area is difficult, as it varies with weekdays, holidays, seasons, weather, temperatures, etc. However, no existing method can perform a long-term prediction based on super long-term real-world data with high precision. Any false prophecy may damage the electrical transformer. So currently, without an efficient method to predict future electric usage, managers have to make decisions based on the empirical number, which is much higher than the real-world demands. It causes unnecessary waste of electric and equipment depreciation. One of the most efficient strategies is to predict how the electrical transformers' oil temperature is safe and avoid unnecessary waste. 
+The electric power distribution problem is the distribution of electricity to different areas depends on its sequential usage. But predicting the following demand of a specific area is difficult, as it varies with weekdays, holidays, seasons, weather, temperatures, etc. However, no existing method can perform a long-term prediction based on super long-term real-world data with high precision. Any false prophecy may damage the electrical transformer. So currently, without an efficient method to predict future electric usage, managers have to make decisions based on the empirical number, which is much higher than the real-world demands. It causes unnecessary waste of electric and equipment depreciation. On the other hand, the oil temperatures can reflect the conditon of electricity Transformer. One of the most efficient strategies is to predict how the electrical transformers' oil temperature is safe and avoid unnecessary waste. 
 As a result, to address this problem, our team and Beijing Guowang Fuda Science & Technology Development Company built a real-world platform and collected 2-year data. We work on it to predict the electrical transformers' oil temperature and investigate the extreme load capacity.
 
 ## ETT-small:
