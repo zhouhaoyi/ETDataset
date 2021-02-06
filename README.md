@@ -2,7 +2,7 @@
 
 In this Github repo, we provide several datasets could be used for the long sequence time-series problem. All datasets have been preprocessed and they were stored as `.csv` files.  The dataset ranges from 2016/07 to 2018/07, and we will update to 2019 soon. [中文版本 | ChineseVersion](https://github.com/zhouhaoyi/ETDataset/blob/main/README_CN.md)
 
-*Dataset list*
+*Dataset list* (updating)
 
 - [x] **ETT-small**: The data of 2 Electricity Transformers at 2 stations, including load, oil temperature.
 - [ ] **ETT-large**: The data of 39 Electricity Transformers at 39 stations, including load, oil temperature.
